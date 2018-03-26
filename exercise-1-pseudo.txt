@@ -1,0 +1,94 @@
+1. Newton's Second Law
+Objective
+---------
+Hitung resultan gaya pada sebuah mobil yang memiliki massa benda 600 kg
+dan ketika didorong oleh tiga orang percepatannya adalah 2 m/s2!
+
+Algoritma
+---------
+1. Membuat variable resultan
+2. Membuat variable m = 600
+3. Membuat variable a = 2
+4. Menampung hasil m * a pada resultan
+5. Menampilkan resultan
+
+Pseudocode
+---------
+READ resultan
+READ m = 600
+READ a = 2
+COMPUTE resultan AS m * a
+DISPLAY resultan
+
+2. Tahun Kabisat
+Objective
+---------
+Tentukan apakah suatu tahun merupakan tahun kabisat atau bukan.
+
+Pseudocode
+---------
+READ tahun
+READ remainder
+
+COMPUTE remainder AS tahun mod 4
+IF remainder === 0
+  COMPUTE remainder AS tahun mod 100
+
+  IF remainder === 0 THEN
+    COMPUTE remainder AS tahun mod 400
+
+    IF remainder === 0 THEN
+      DISPLAY "Tahun Kabisat"
+
+    ELSE IF remainder > 0 THEN
+      DISPLAY "Bukan Tahun Kabisat"
+
+    ENDIF
+
+  ELSE IF remainder > 0 THEN
+    DISPLAY "Tahun Kabisat"
+
+  ENDIF
+
+ELSE IF remainder > 0 THEN
+  DISPLAY "Bukan Tahun Kabisat"
+
+ENDIF
+
+3. Laundry Day
+Objective
+---------
+Hitung jumlah pakaian yang akan dimasukkan ke mesin cuci.
+Mesin cuci akan dinyalakan jika semua pakaian Foxie sudah masuk ke mesin cuci.
+
+Pseudocode
+----------
+READ clothes = 0
+SET wash to FALSE
+
+WHILE clothes < 20
+  ADD clothes by 1
+ENDWHILE
+
+SET wash to TRUE
+
+4. Periksa Kuku
+Objective
+---------
+Jika guru menemukan siswa/siswi yang memiliki kuku yang panjang
+maka guru akan menghukum siswa/siswi tersebut,
+jika tidak guru akan memuji siswa/siswi tersebut.
+
+Pseudocode
+----------
+READ count = 1
+READ student
+
+WHILE count <= 40
+  IF student == dirty THEN
+    DISPLAY "Guru menghukum siswa/siswi"
+  ELSE IF student == clean THEN
+    DISPLAY "Guru memuji siswa/siswi"
+  ENDIF
+  ADD count by 1
+ENDWHILE
