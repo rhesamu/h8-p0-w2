@@ -82,12 +82,12 @@ jika tidak guru akan memuji siswa/siswi tersebut.
 Pseudocode
 ----------
 READ count = 1
-READ student
+READ studentNails
 
 WHILE count <= 40
-  IF student == dirty THEN
+  IF studentNails == long THEN
     DISPLAY "Guru menghukum siswa/siswi"
-  ELSE IF student == clean THEN
+  ELSE IF studentNails == short THEN
     DISPLAY "Guru memuji siswa/siswi"
   ENDIF
   ADD count by 1
