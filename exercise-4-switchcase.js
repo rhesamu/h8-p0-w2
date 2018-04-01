@@ -19,3 +19,34 @@ switch(bulan) {
 }
 
 console.log(tanggal + ' ' + bulan + ' ' + tahun)
+
+/*
+var name = 'Bob Saget'
+var count = 0
+
+// .length -> count the characters
+
+console.log(name.length)
+
+while (count < name.length) {
+  if(name[count].toLowerCase() === 'b') {
+    console.log(name[count])
+  }
+  count++
+} // Prints 'B' and 'b'
+*/
+
+/* Balik kata
+var name = 'Bob Saget'
+var count = name.length - 1
+var i = 0
+var reversed = ''
+
+while(count >= 0) {
+  reversed = reversed + name[count]
+  count = count - 1
+  i = i + 1
+}
+
+console.log(reversed)
+*/
